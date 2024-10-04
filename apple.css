@@ -1,0 +1,344 @@
+header{
+    display: flex;
+   background-color: whitesmoke;
+   color: gray;
+   list-style-type: none;
+   padding: 10px;
+   
+
+   position: fixed;
+   width: 100%;
+   height: 10px;
+   z-index: 999;
+   font-size: 12px;
+  top: 0;
+  
+}
+header div{
+    display: flex;
+    margin-left: 260px;
+}
+.nav1{
+            display:flex;
+           position: fixed; 
+           top:30px;
+           z-index: 999;
+            flex-direction:row;
+            font-size: 12px;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            list-style-type: none;
+            width: 97%;
+            padding: 10px;
+            background-color:white;
+            opacity: 0.75;
+            }
+        li:hover{
+            
+            color: blue;
+            cursor: pointer;
+        }      
+           .a3{
+            height: 240px;
+            width: 400px;
+           margin-top: 20PX;
+            }
+        .a4{
+            background-image:url("g1.png");
+            background-repeat: no-repeat;
+            min-width: 500px;
+            height: 200px;
+            image-resolution: 3000px;
+            margin-left: 50px;
+            margin-right: 20px;
+            margin-top:30px;
+             }
+        .a5{
+            width: 300px;
+            height: 190px;
+           margin-bottom: 10px;
+            margin-top: 50px;
+            margin-left: 5px;
+        }
+        .a6{
+            background-image:url("w1.png");
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 200px;
+            image-resolution: 50000px;
+            margin-left: 200px;
+            margin-top: 30px;
+            object-fit: cover;
+            border-bottom: 0px;
+            }   
+            .i1{
+        background-color: whitesmoke;
+        padding: 10px;
+        width: 1310.10px; 
+        height: 420px;
+            }
+            .shop{
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 90px;
+        width: 10%;
+        border-color:#06c ;
+        color: #06c;
+    }
+    .shop:hover{
+        background-color: #06c;
+        color:white;
+        cursor: pointer;
+    }
+    .a21{ 
+       text-align: center; 
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .Learn{ 
+        border-radius: 90px;
+        width: 10%;
+        padding: 10px;
+        background-color: #04c;
+        color: white;
+        border-color: #04c;
+       }
+       .Learn:hover{
+        background-color: #06c;
+        cursor: pointer;
+       }
+       
+       /* text */
+       .i2{
+        background-color: black;
+      padding: 5PX;
+      height: 460px;
+      width: 1550; 
+     }
+       .grid{
+    display:grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: white;
+       grid-area: auto;
+     
+        }
+        .grid11{
+background-image: url("mo1.jpeg");
+padding: 10px 150px;
+width: 60%;
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.grid12{
+background-image: url("lappp.png");
+background-color:rgb(238, 235, 232) ;
+padding: 0px 150px;
+width: 450px;
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+       .grid1{
+        background-color:rgb(238, 235, 232) ;
+    }
+         .learn1{
+            border-radius: 80px;
+            padding: 10px;
+            width: 100px;
+            height: 50px;
+            color:black;
+            border-color:white;
+            background-color:beige ;
+        }
+         .learn1:hover{
+            background-color: white;
+            cursor: pointer;
+}
+         .learn11{
+            border-radius: 80px;
+            border: 1px solid white;
+            width: 90px;
+            height: 40px;
+            color:black;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-color:white;
+            background-color:beige ;
+        }
+         .learn11:hover{
+            background-color: white;
+            cursor: pointer;
+         }
+         .learn21{
+            border-radius: 80px;
+            border: 1px solid white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 100px;
+            height: 40px;
+            color:white;
+            border-color:white;
+            background-color:transparent;
+         }
+         .learn21:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+         } 
+         /* first grid eng */
+         /* sec grid */
+         .learn12{
+            border-radius: 80px;
+            border: 1px solid #04c;
+            width: 90px;
+            height: 40px;
+            color:black;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #04c;
+        color: white;
+        border-color: #04c;
+         }
+        .learn12:hover{
+            background-color: #06c;
+            cursor: pointer;
+         }
+         .learn22{
+            border-radius: 80px;
+            border: 1px solid white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 100px;
+            height: 40px;
+            border-color:#06c ;
+            color: #06c;
+            background-color: transparent;
+         }
+         .learn22:hover{
+            background-color: #06c;
+            color: white;
+            cursor: pointer;
+         }
+         .learn2{
+            border-radius: 80px;
+            padding: 10px;
+            width: 120px;
+            height: 50px;
+            color:white;
+            border-color:white;
+            background-color:transparent;
+         }
+         .learn2:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+         }
+         .learn3{
+           width: 150px;
+            height: 30px;
+            border-color: #04c;
+            border-radius: 50px;
+            color: white;
+            background-color:#04c;
+         }
+         .learn3:hover{
+            background-color: #06c;
+            cursor: pointer;
+         }
+        .learn4{ 
+        border-radius: 90px;
+        width: 20%;
+        padding: 10px;
+        background-color: #04c;
+        color: white;
+        border-color: #04c;
+       }
+       .learn4:hover{
+        background-color: #06c;
+        cursor: pointer;
+       }
+       .shop1{
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 90px;
+        width: 20%;
+        border-color:#06c ;
+        color: #06c;
+    }
+    .shop1:hover{
+        background-color: #06c;
+        color:white;
+        cursor: pointer;
+    }
+    .model{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+     z-index: 10;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.model img:hover {
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+cursor: pointer;
+-webkit-box-shadow: 0px 3px 5px rgba(226, 15, 15, 0.925);
+-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+.model div{
+      margin: 10px;
+        }
+    .model1{
+    display: flex;
+    }
+    .model1 div{
+        
+        margin: 5px;
+    }
+.foot{
+        display: flex;
+       list-style-type: none;
+      justify-content: center;
+        
+    flex-direction: row;
+       line-height: 20px;
+       font-size: 11px;
+    }
+    .foot div{
+        padding-left: 50px;
+        color:black
+    }
+    a{
+        color:gray;
+        text-decoration-line: none;
+    }
+    a:hover{
+        text-decoration-line: underline;
+        
+    }
+    .final{
+display: flex;
+list-style-type: none;
+font-size: 11px;
+color: grey;
+margin-left: 135px;
+}
+footer {
+    margin: 0;
+    padding: 10px; /* You can adjust this value */
+    width: 99.10%;
+    background-color: #f1f1f1; /* Example background color */
+    position: relative; /* Keeps it in flow with the rest of the page */
+  }
+  
+  footer * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  }
+  
